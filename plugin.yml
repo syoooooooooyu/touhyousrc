@@ -1,0 +1,13 @@
+name: touhyou
+main: syouyu\touhyou\Main
+version: 3.0.2
+api: [3.0.0,4.0.0]
+load: POSTWORLD
+author: syouyu
+description: 投票を行います
+website: https://github.com/touhyousrc
+
+commands:
+  touhyou:
+    description: 投票を行います
+    usage: /touhyou
