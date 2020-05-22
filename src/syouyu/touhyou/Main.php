@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener{
     }
 
     public function onJoin(PlayerJoinEvent $event){
-        $this->fly[$event->getPlayer()->getName()] = false;
+        $this->touhyou[$event->getPlayer()->getName()] = false;
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
@@ -49,20 +49,20 @@ class Main extends PluginBase implements Listener{
                     break;
                     case "s":
                     if($this->b["b"] == true){
-                        if($this->fly[$sender->getName()] == true){
+                        if($this->touhyou[$sender->getName()] == true){
                             return true;
                         }
                         $this->sansei = $this->sansei + 1;
-                        $this->fly[$sender->getName()] = true;
+                        $this->touhyou[$sender->getName()] = true;
                     }
                     break;
                     case "h":
                         if($this->b["b"] == true){
-                            if($this->fly[$sender->getName()] == true){
+                            if($this->touhyou[$sender->getName()] == true){
                                 return true;
                             }
                             $this->hantai = $this->hantai + 1;
-                            $this->fly[$sender->getName()] = true;   
+                            $this->touhyou[$sender->getName()] = true;   
                         }                         
                     break;
                     case "stop":
