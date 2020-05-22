@@ -5,7 +5,7 @@ api: [3.0.0,4.0.0]
 load: POSTWORLD
 author: syouyu
 description: 投票を行います
-website: https://github.com/touhyousrc
+website: https://github.com/syoooooooooyu/touhyousrc/
 
 commands:
   touhyou:
