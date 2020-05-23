@@ -3,18 +3,16 @@
 
 # 利用方法
 
-## touhyou:
-
-### start [議題等]
+## touhyou start [議題等]
 投票を始めます(op権限必須)
 
-#### s
+### touhyou s
 賛成に投票します
 
-##### h
+#### touhyou h
 反対に投票します
 
-###### stop
+##### touhyou stop
 
 投票を終了、開票します(op権限必須)
 
