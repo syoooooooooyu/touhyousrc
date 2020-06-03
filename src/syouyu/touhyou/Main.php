@@ -1,5 +1,17 @@
 <?php
 
+/**
+ *    ＿＿＿＿＿   _     ＿   ＿　　  ＿　＿　
+ *   /  ＿＿＿/\ //＿＿ | |  | |\  / /|  | |
+ *   \＿＿＿＿\ \// ＿  \ |  | | \/ / |  | |
+ *    ＿＿＿  \  / |＿| | |__| |   /| \__/ |
+ *   /＿＿＿＿/　/\＿＿＿/\_____/  / \_____/
+ *          /＿/            　 /__/
+ *
+ * @author Syouyu(syoooooooooyu)
+ * @link https://github.com/syoooooooooyu/
+ */
+
 namespace syouyu\touhyou;
 
 use pocketmine\command\Command;
